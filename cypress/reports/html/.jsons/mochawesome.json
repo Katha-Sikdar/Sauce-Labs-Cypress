@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-11-20T09:43:35.974Z",
+    "end": "2024-11-20T09:43:43.781Z",
+    "duration": 7807,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "7b13fe45-97cc-48cd-9042-c6b9c6626be7",
+      "title": "",
+      "fullFile": "cypress\\e2e\\differentUser.cy.js",
+      "file": "cypress\\e2e\\differentUser.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "05bcefb4-3e9d-4525-9e44-5f859b803e9c",
+          "title": "Login Test for locked_out_user",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should show an error for locked_out_user",
+              "fullTitle": "Login Test for locked_out_user should show an error for locked_out_user",
+              "timedOut": null,
+              "duration": 3313,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// Enter username\ncy.get('#user-name').type('locked_out_user');\n// Enter password\ncy.get('#password').type('secret_sauce');\n// Click the login button\ncy.get('#login-button').click();\n// Assert the error message\ncy.get('[data-test=\"error\"]').should('contain.text', 'Sorry, this user has been locked out.');",
+              "err": {},
+              "uuid": "84a4fd21-f390-4bd2-bb4e-f670f32654f9",
+              "parentUUID": "05bcefb4-3e9d-4525-9e44-5f859b803e9c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "84a4fd21-f390-4bd2-bb4e-f670f32654f9"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3313,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

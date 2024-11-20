@@ -15,6 +15,7 @@ module.exports = defineConfig({
       'cypress/e2e/login-test.cy.js',
       'cypress/e2e/cartpage.cy.js',
       'cypress/e2e/differentUser.cy.js',
+      'cypress/e2e/LoginApi.cy.js',
     ],
   },
   reporter: 'cypress-mochawesome-reporter',
