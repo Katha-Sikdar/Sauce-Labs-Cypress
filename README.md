@@ -47,3 +47,6 @@ cypress/
 │   ├── e2e.js                  # Support configuration
 ├── reports/                    # Reports generated after test runs
 
+## Getting Started 
+### Setup
+  - Clone the repository: git clone ``` https://github.com/Katha-Sikdar/Sauce-Labs-Cypress ```
