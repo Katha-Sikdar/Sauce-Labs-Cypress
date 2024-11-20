@@ -24,3 +24,26 @@
 -  the order summary and assert the total amount.
 - Complete the purchase by clicking the "Finish" button.
 - Assert that the order confirmation page is displayed.
+
+## Project Structure 
+
+cypress/
+├── e2e/
+│   ├── API Testing             # Custom commands for reusable actions
+        ├── checkoutApi.cy.js
+        ├── LoginAPI.cy.js
+│   ├── Test Cases
+        ├── cartpage.cy.js       # Tests for adding items to the cart and checkout process
+        ├── differentUser.cy.js  # Parameterized tests for various user roles
+        ├── login-test.cy.js     # Tests for logging in       
+├── fixtures/
+│   ├── sauce-demo.json           # Contains test data like user credentials
+├── pages/
+│   ├── cartpage.js             # Contains test infos about cartpage
+    ├── checkoutpage.js         # Contains test infos about checkoutpage
+    ├── LoginPage.js            # Contains test infos about loginpage
+├── support/
+│   ├── commands.js             # Custom commands for reusable actions
+│   ├── e2e.js                  # Support configuration
+├── reports/                    # Reports generated after test runs
+
