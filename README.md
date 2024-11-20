@@ -26,7 +26,7 @@
 - Assert that the order confirmation page is displayed.
 
 ## Project Structure 
-
+```plaintext
 cypress/
 ├── e2e/
 │   ├── API Testing             # Custom commands for reusable actions
