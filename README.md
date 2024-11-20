@@ -85,11 +85,8 @@ https://github.com/user-attachments/assets/a620da7f-843b-45fd-a54c-83713944aad1
 
 
 ## Report 
-
-![cypress](https://github.com/user-attachments/assets/9278a351-4f1c-4352-b482-8b4f28a2c98d)
-
-
  
+![Screenshot_20-11-2024_20406_](https://github.com/user-attachments/assets/3e9c2ad1-0a36-4450-9497-58006abfe241)
 
 
 
