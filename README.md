@@ -54,6 +54,12 @@ cypress/
 
 
 ## Getting Started 
+### Prerequisites - 
+  - Cypress
+  - Java Script
+  - Node.js
+  - Mochawesome
+  - VS code
 ### Setup
   - Clone the repository: git clone ``` https://github.com/Katha-Sikdar/Sauce-Labs-Cypress ```
 ### Install Dependencies : 
