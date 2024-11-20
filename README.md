@@ -77,7 +77,7 @@ cypress/
     
 ### Reporting
   - This project uses **cypress-mochawesome-reporter** for detailed HTML reports. Reports are saved in the **cypress/reports** folder after test runs.
-  - Install the reporter: ``` npm install --save-dev cypress-mochawesome-reporter 
+  - Install the reporter: ``` npm install --save-dev cypress-mochawesome-reporter ``` 
 
 
  
