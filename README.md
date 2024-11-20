@@ -45,7 +45,7 @@ cypress/
 ├── support/
 │   ├── commands.js             # Custom commands for reusable actions
 │   ├── e2e.js                  # Support configuration
-├── reports/                    # Reports generated after test runs
+├── reports/                    # Reports generated after test runs   ```
 
 
 
