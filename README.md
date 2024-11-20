@@ -47,6 +47,20 @@ cypress/
 │   ├── e2e.js                  # Support configuration
 ├── reports/                    # Reports generated after test runs
 
+
+
+
+/cypress
+  /integration
+    /tests
+      - login.spec.js      // Login test cases
+      - filter.spec.js     // Product filter test cases
+      - checkout.spec.js   // Checkout process test cases
+      - menu.spec.js       // Menu functionality test cases
+  /support
+    - commands.js         // Custom Cypress commands
+    - index.js            // Global configurations
+
 ## Getting Started 
 ### Setup
   - Clone the repository: git clone ``` https://github.com/Katha-Sikdar/Sauce-Labs-Cypress ```
