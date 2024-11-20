@@ -62,7 +62,7 @@ cypress/
 ### Run the entire test suite: 
   - ``` npx cypress run ```
 
-### Features 
+## Features 
 ### Reusable Commands
   - Custom commands are defined in cypress/support/commands.js for actions like login and adding items to the cart.
 ### Fixtures 
