@@ -50,3 +50,38 @@ cypress/
 ## Getting Started 
 ### Setup
   - Clone the repository: git clone ``` https://github.com/Katha-Sikdar/Sauce-Labs-Cypress ```
+### Install Dependencies : 
+  - using ```npm install ``` command
+### Open Cypress:
+ - ``` npx cypress open ```
+   
+## Running Tests
+### Run Specific Tests 
+  - Run a specific test file: ``` npx cypress run --spec cypress/e2e/<test-file>.cy.js ```
+
+### Run the entire test suite: 
+  - ``` npx cypress run ```
+
+### Features 
+### Reusable Commands
+  - Custom commands are defined in cypress/support/commands.js for actions like login and adding items to the cart.
+### Fixtures 
+  - Test data like user credentials and product names are stored in cypress/fixtures/sauce-demo.json. This allows easy reuse and parameterization
+### Handling Flaky Elements
+  - Selectors use reliable attributes like data-test instead of element IDs. Cypress retries failed assertions automatically.
+
+### Bonus Features
+  - Parameterize the test to run with different user roles, such as locked_out_user.
+  - Use API testing with cy.intercept() to mock or verify backend calls (e.g., for
+    login or checkout).
+    
+### Reporting
+  - This project uses <b  cypress-mochawesome-reporter /b> for detailed HTML reports. Reports are saved in the <b cypress/reports /b> folder after test runs.
+  - Install the reporter: ``` npm install --save-dev cypress-mochawesome-reporter 
+
+
+ 
+
+
+
+
